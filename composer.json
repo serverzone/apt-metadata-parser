@@ -1,0 +1,23 @@
+{
+  "name": "serverzone/apt-metadata-parser",
+  "description": "Apt metadata parser",
+  "type": "library",
+  "require": {
+    "php": ">= 7.2"
+  },
+  "require-dev": {
+    "ninjify/qa": "^0.10.0",
+    "phpstan/phpstan": "^0.12.11",
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "ServerZone\\AptMetadataParser\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  }
+}
